@@ -1,5 +1,3 @@
-<!DOCTYPE HTML>
-
 <?php
 
 session_start();
@@ -27,7 +25,7 @@ function isLoggedin() {
     return (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) || isRemembered();
 }
 ?>
-
+<!DOCTYPE HTML>
 <html>
     <head>  
         <title>Toon Controller</title>
